@@ -8,15 +8,15 @@ To write a program to predict car prices using a linear regression model and tes
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import Libraries: Bring in essential libraries such as pandas, numpy, matplotlib, and sklearn.
-2.Load Dataset: Import the dataset containing car prices along with relevant features.
-3.Data Preprocessing: Manage missing data and select key features for the model, if required.
-4.Split Data: Divide the dataset into training and testing subsets.
-5.Train Model: Build a linear regression model and train it using the training data.
-6.Make Predictions: Apply the model to predict outcomes for the test set.
-7.Evaluate Model: Measure the model's performance using metrics like R² score, Mean Absolute Error (MAE), etc.
-8.Check Assumptions: Plot residuals to verify assumptions like homoscedasticity, normality, and linearity.
-9.Output Results: Present the predictions and evaluation metrics.
+1. Import Libraries: Bring in essential libraries such as pandas, numpy, matplotlib, and sklearn.                      
+2.Load Dataset: Import the dataset containing car prices along with relevant features.                         
+3.Data Preprocessing: Manage missing data and select key features for the model, if required.                       
+4.Split Data: Divide the dataset into training and testing subsets.                                   
+5.Train Model: Build a linear regression model and train it using the training data.                               
+6.Make Predictions: Apply the model to predict outcomes for the test set.                            
+7.Evaluate Model: Measure the model's performance using metrics like R² score, Mean Absolute Error (MAE), etc.                          
+8.Check Assumptions: Plot residuals to verify assumptions like homoscedasticity, normality, and linearity.                                            
+9.Output Results: Present the predictions and evaluation metrics.                    
 
 ## Program:
 ```
@@ -96,6 +96,12 @@ plt.tight_layout()
 ```
 
 ## Output:
+
+<img width="1361" height="368" alt="Screenshot 2026-03-27 232756" src="https://github.com/user-attachments/assets/12303dc6-41a7-4f0d-91dc-9e7e0a1705dd" />
+<img width="1444" height="671" alt="Screenshot 2026-03-27 232818" src="https://github.com/user-attachments/assets/3863e711-0a1b-40d1-a331-086d4a008bb9" />
+<img width="1357" height="723" alt="Screenshot 2026-03-27 232832" src="https://github.com/user-attachments/assets/97c312c7-2408-4b1d-a86b-a700a8751413" />
+<img width="1390" height="562" alt="Screenshot 2026-03-27 232903" src="https://github.com/user-attachments/assets/72f86f7b-f20e-4840-b2de-96920b5256d9" />
+
 
 ## Result:
 Thus, the program to implement a linear regression model for predicting car prices is written and verified using Python programming, along with the testing of key assumptions for linear regression.
